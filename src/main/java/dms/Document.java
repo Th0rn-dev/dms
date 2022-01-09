@@ -6,6 +6,7 @@ public class Document {
 
     private final Map<String, String> attributes;
 
+    // пакетныЙ конструктор, т.е. создание данного типа доступно только в пакете dms
     Document(final Map<String, String> attributes) {
         this.attributes = attributes;
     }
